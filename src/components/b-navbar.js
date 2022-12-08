@@ -2,6 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import { Navbar } from 'react-bootstrap';
 
 function LinkTab(props) {
   return (
@@ -23,7 +24,7 @@ export default function NavTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%' }} style={{ backgroundColor: '#e7eeda' }}>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -31,6 +32,8 @@ export default function NavTabs() {
         indicatorColor="secondary"
         aria-label="secondary tabs example"
 >
+        
+        <LinkTab label="Home" href="/" underline="hover" />
         <LinkTab label="About the Dev" href="/aboutMe" underline="hover" />
         <LinkTab label="Portfolio" href="/portfolio" underline="hover" />
         <LinkTab label="Contact" href="/contact" underline="hover" />
@@ -40,24 +43,3 @@ export default function NavTabs() {
   );
 }
 
-
-
-
-/*
-const Header = () => {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-                <Route path="/" element={</>}/>
-            </Routes>
-        </Router>
-    );
-};
-export default Header;
-*/
