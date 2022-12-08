@@ -9,7 +9,7 @@ import Footer from '../g-footer'
 
 const MainBody = () => {
     return (
-      <div>
+      <div id='justify-center' >
           <h1> Hello, My name is Michaela Wells </h1>
             <h4> I'm a beginner Full Stack Developer. </h4>
       </div>

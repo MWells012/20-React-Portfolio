@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css'
+
 import Photo from './assets/photo-of-Michaela.jpg'
 
 const About = () => {

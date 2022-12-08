@@ -19,9 +19,6 @@ function App() {
   return (
     <div>
       <header> <Navbar/> </header>
-      <About/>
-      <Contact/>
-      <Resume/>
       <body> <MainBody/> </body>
       <footer> <Footer/> </footer>
 
