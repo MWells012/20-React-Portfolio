@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import {  FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {  FaGithub, FaLinkedin} from "react-icons/fa";
 import { IconContext } from "react-icons";
 import Card from 'react-bootstrap/Card';
 
@@ -18,9 +18,6 @@ function Footer() {
                      <FaLinkedin/>
                 </a>
 
-                <a style={{marginRight:"30px"}} href= 'mailto:l.cvengros@icloud.com'>
-                     <FaEnvelope/>
-                </a>
             
                 <a style={{marginRight:"30px"}}  href= 'https://github.com/MWells012'>
                      <FaGithub/> 

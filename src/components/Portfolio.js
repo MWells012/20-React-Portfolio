@@ -1,37 +1,119 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card'; 
 import { Container } from 'react-bootstrap';
 
 
+
+
 const Portfolio = () => {
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
   return (
-    <Container>
-      <h1 style={{marginTop: '40px', color:'white', fontSize:'30px'}} >
-        Here are some of the things I've written!
-      </h1>
+    <React.Fragment>
+        
+    <div className="container, border" style={{marginTop: '100px', background:'#D4D4D4'}}>
+      
+    <Carousel variant="dark" activeIndex={index} onSelect={handleSelect} slide={false}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+            <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum. </p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+          <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+          <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/new/slides/041.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+          <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/new/slides/042.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+          <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur. </p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://mdbootstrap.com/img/new/slides/043.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div style={{ background:'#D4D4D4', opacity:'85%'}}>
+          <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href=''>View on Github</a></h4>
+            <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur. </p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
 
 
-    <Card style={{ marginLeft:'0px', marginTop: '20px',height: '30rem',width: '20rem' }}>
-      <Card.Img variant="top"  />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </Card.Body>
-      <Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-      </Card.Body>
-    </Card>
-    </Container>
+    </Carousel>
+      
+    </div>
     
+    
+</React.Fragment>
   );
 }
+    
 
 export default Portfolio;
