@@ -1,30 +1,33 @@
-import React from 'react';
-
-import MainBody from './components/body/a-main-body';
-import Navbar from './components/b-navbar'
-import About from './components/body/c-about-me'
-import Portfolio from './components/body/d-portfolio'
-import Contact from './components/body/e-contact'
-import Resume from './components/body/f-resume'
-import Footer from './components/g-footer'
-
-// this is for the background on the main page
-
 
 import './App.css';
+import React, { Component } from 'react';
+import background from "./components/assets/background.jpg";
+
+import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
-function App() {
-  return (
-    <div>
-      <header> <Navbar/> </header>
-      <body> <MainBody/> </body>
-      <footer> <Footer/> </footer>
 
-    </div>
-  );
-  
+class App extends Component {
+  render() {
+    const myStyle={
+        backgroundImage: `url(${background})`,
+        height:'100vh',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    };
+    return (
+      <div style={myStyle}>
+        <div> 
+          <NavBar/>
+        <Footer/>
+        </div>
+      </div> 
+    );
+  }
 }
-
+   
 export default App;
+
