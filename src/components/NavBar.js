@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css'
+
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -28,12 +30,9 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link to="/Resume" as={Link} >Resume Download</Nav.Link>
+              <Nav.Link to="/Resume" as={Link} >Resume</Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link to="/Github" as={Link} >Github Link</Nav.Link>
-            </Nav.Item>
 
           </Nav>
       </Container>

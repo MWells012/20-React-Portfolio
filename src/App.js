@@ -3,14 +3,8 @@ import './App.css';
 import React, { Component } from 'react';
 import background from "./components/assets/background.jpg";
 
-import NavBar from './components/NavBar'
+import Header from './components/Header'
 import Footer from './components/Footer'
-//import HomePage from './components/HomePage'
-import Contact from './components/Contact'
-
-
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-
 
 class App extends Component {
   render() {
@@ -23,7 +17,7 @@ class App extends Component {
     return (
       <div style={myStyle}>
   
-        <NavBar/>
+        <Header/>
         <Footer/>
   
       </div> 
