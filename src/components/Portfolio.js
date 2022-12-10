@@ -28,7 +28,7 @@ const Portfolio = () => {
     <Carousel variant="dark" activeIndex={index} onSelect={handleSelect} slide={false}>
       <Carousel.Item>
         <img
-        
+      
           className="d-block w-100"
           src= { TimeSchedule }
           alt="First slide"
