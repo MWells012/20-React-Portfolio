@@ -12,7 +12,7 @@ function Footer() {
             
         <IconContext.Provider value={{ color: 'white', size: '3em' }}>
         <footer className="blockquote-footer">
-            <div style={{display: 'block',textAlign: 'center', position:'fixed', bottom:'0', width:'100%' }}>
+            <div style={{display: 'block',textAlign: 'center', position:'fixed', bottom:'0', width:'100%', marginBottom:"7px" }}>
 
                 <a style={{marginRight:"30px"}} href= 'https://www.linkedin.com/in/michaela-wells-85606713b/'>
                      <FaLinkedin/>
