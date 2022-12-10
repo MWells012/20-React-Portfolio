@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MWells012/20-React-Portfolio/static/css/main.65e1ceb6.css",
-    "main.js": "/MWells012/20-React-Portfolio/static/js/main.f7a4562a.js",
-    "static/media/background.jpg": "/MWells012/20-React-Portfolio/static/media/background.2bca53e7dcdcdbaac367.jpg",
-    "static/media/readme-generator.png": "/MWells012/20-React-Portfolio/static/media/readme-generator.a8103514fa4aacd86987.png",
-    "static/media/note-taker.png": "/MWells012/20-React-Portfolio/static/media/note-taker.d94211b5ca85a1f95ab5.png",
-    "static/media/original-portfolio.png": "/MWells012/20-React-Portfolio/static/media/original-portfolio.4e9113421eb63c087194.png",
-    "static/media/profile-generator.png": "/MWells012/20-React-Portfolio/static/media/profile-generator.bbc7604962e54befb3d8.png",
-    "static/media/time-schedule.png": "/MWells012/20-React-Portfolio/static/media/time-schedule.d3e8cae1d4631be427a0.png",
-    "static/media/Michaela-Wells-Resume.pdf": "/MWells012/20-React-Portfolio/static/media/Michaela-Wells-Resume.8678fa9415976025825b.pdf",
-    "static/media/profile.jpg": "/MWells012/20-React-Portfolio/static/media/profile.e8c7b0f370858e5ef492.jpg",
-    "static/media/question-game.png": "/MWells012/20-React-Portfolio/static/media/question-game.043b66c689a694b38d6b.png",
-    "index.html": "/MWells012/20-React-Portfolio/index.html",
-    "main.65e1ceb6.css.map": "/MWells012/20-React-Portfolio/static/css/main.65e1ceb6.css.map",
-    "main.f7a4562a.js.map": "/MWells012/20-React-Portfolio/static/js/main.f7a4562a.js.map"
+    "main.css": "/20-React-Portfolio/static/css/main.65e1ceb6.css",
+    "main.js": "/20-React-Portfolio/static/js/main.bfa1fe01.js",
+    "static/media/background.jpg": "/20-React-Portfolio/static/media/background.2bca53e7dcdcdbaac367.jpg",
+    "static/media/readme-generator.png": "/20-React-Portfolio/static/media/readme-generator.a8103514fa4aacd86987.png",
+    "static/media/note-taker.png": "/20-React-Portfolio/static/media/note-taker.d94211b5ca85a1f95ab5.png",
+    "static/media/original-portfolio.png": "/20-React-Portfolio/static/media/original-portfolio.4e9113421eb63c087194.png",
+    "static/media/profile-generator.png": "/20-React-Portfolio/static/media/profile-generator.bbc7604962e54befb3d8.png",
+    "static/media/time-schedule.png": "/20-React-Portfolio/static/media/time-schedule.d3e8cae1d4631be427a0.png",
+    "static/media/Michaela-Wells-Resume.pdf": "/20-React-Portfolio/static/media/Michaela-Wells-Resume.8678fa9415976025825b.pdf",
+    "static/media/profile.jpg": "/20-React-Portfolio/static/media/profile.e8c7b0f370858e5ef492.jpg",
+    "static/media/question-game.png": "/20-React-Portfolio/static/media/question-game.043b66c689a694b38d6b.png",
+    "index.html": "/20-React-Portfolio/index.html",
+    "main.65e1ceb6.css.map": "/20-React-Portfolio/static/css/main.65e1ceb6.css.map",
+    "main.bfa1fe01.js.map": "/20-React-Portfolio/static/js/main.bfa1fe01.js.map"
   },
   "entrypoints": [
     "static/css/main.65e1ceb6.css",
-    "static/js/main.f7a4562a.js"
+    "static/js/main.bfa1fe01.js"
   ]
 }
