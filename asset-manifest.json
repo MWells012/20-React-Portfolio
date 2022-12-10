@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MWells012/20-React-Portfolio/static/css/main.65e1ceb6.css",
-    "main.js": "/MWells012/20-React-Portfolio/static/js/main.7f3e1f4b.js",
+    "main.js": "/MWells012/20-React-Portfolio/static/js/main.f7a4562a.js",
     "static/media/background.jpg": "/MWells012/20-React-Portfolio/static/media/background.2bca53e7dcdcdbaac367.jpg",
     "static/media/readme-generator.png": "/MWells012/20-React-Portfolio/static/media/readme-generator.a8103514fa4aacd86987.png",
     "static/media/note-taker.png": "/MWells012/20-React-Portfolio/static/media/note-taker.d94211b5ca85a1f95ab5.png",
@@ -13,10 +13,10 @@
     "static/media/question-game.png": "/MWells012/20-React-Portfolio/static/media/question-game.043b66c689a694b38d6b.png",
     "index.html": "/MWells012/20-React-Portfolio/index.html",
     "main.65e1ceb6.css.map": "/MWells012/20-React-Portfolio/static/css/main.65e1ceb6.css.map",
-    "main.7f3e1f4b.js.map": "/MWells012/20-React-Portfolio/static/js/main.7f3e1f4b.js.map"
+    "main.f7a4562a.js.map": "/MWells012/20-React-Portfolio/static/js/main.f7a4562a.js.map"
   },
   "entrypoints": [
     "static/css/main.65e1ceb6.css",
-    "static/js/main.7f3e1f4b.js"
+    "static/js/main.f7a4562a.js"
   ]
 }
