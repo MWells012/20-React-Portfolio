@@ -6,6 +6,7 @@ import ProfileGenerator from './assets/profile-generator.png'
 import ReadMe from './assets/readme-generator.png'
 import QuestionGame from './assets/question-game.png'
 import TimeSchedule from './assets/time-schedule.png'
+import OriginalPortfolio from './assets/original-portfolio.png'
 
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -22,14 +23,16 @@ const Portfolio = () => {
   return (
     <React.Fragment>
         
-    <div className="container, border" style={{marginTop: '100px', background:'#D4D4D4'}}>
+    <div className="container" style={{marginTop: '50px', width:'auto'}}>
       
     <Carousel variant="dark" activeIndex={index} onSelect={handleSelect} slide={false}>
       <Carousel.Item>
         <img
+        
           className="d-block w-100"
           src= { TimeSchedule }
           alt="First slide"
+          
         />
         <Carousel.Caption>
           <div style={{ background:'#D4D4D4', opacity:'85%'}}>
@@ -57,14 +60,15 @@ const Portfolio = () => {
 
       <Carousel.Item>
         <img
+        
           className="d-block w-100"
-          src= { }
+          src= { NoteTaker}
           alt="Third slide"
         />
         <Carousel.Caption>
           <div style={{ background:'#D4D4D4', opacity:'85%'}}>
-            <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href='https://github.com/MWells012/12-Employee-Tracker'>View on Github</a></h4>
-            <p> Employee Tracker </p>
+            <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href='https://github.com/MWells012/11-Note-Taker'>View on Github</a></h4>
+            <p> Note Taker </p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -87,6 +91,7 @@ const Portfolio = () => {
 
       <Carousel.Item>
         <img
+        
           className="d-block w-100"
           src= {ProfileGenerator}
           alt="Third slide"
@@ -102,14 +107,15 @@ const Portfolio = () => {
 
       <Carousel.Item>
         <img
+        
           className="d-block w-100"
-          src= {NoteTaker}
+          src= {OriginalPortfolio}
           alt="Third slide"
         />
         <Carousel.Caption>
           <div style={{ background:'#D4D4D4', opacity:'85%'}}>
-            <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href='https://github.com/MWells012/11-Note-Taker'>View on Github</a></h4>
-            <p> Note Taker </p>
+            <h4 style={{paddingTop:'2pt'}}><a class='btn border-dark' href='https://github.com/MWells012/assignment-2'>View on Github</a></h4>
+            <p> Original/First Portfolio </p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

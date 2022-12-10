@@ -16,20 +16,20 @@ const About = () => {
   return(
     <React.Fragment>
         
-        <div className="container, border" style={{marginTop: '100px', background:'#D4D4D4'}}>
+        <div className="container" style={{marginTop: '100px', background:'#D4D4D4'}}>
           
-          <h4 style={{paddingTop:'12px', color:'#283316', textAlign:'center', fontSize: '35px'}}> Get to Know Me, Michaela Wells</h4>
+          <h4 style={{paddingTop:'12px', color:'#6c883b', textAlign:'center', fontSize: '35px'}}> Get to Know Me, Michaela Wells</h4>
           <hr style={{height:'5px',backgroundColor:'#242d13',width: '80%',marginLeft: 'auto',marginRight: 'auto',}}/>
-            <div className="row ">
+            <div className="row">
               <div className="col-lg-5 col-md-6 col-sm-12 order-sm-first order-last">
                 
                 <div>
-                <img style={{marginTop: '40px', marginBottom: '40px',  marginLeft:"40px", width: '225px', height: '300px',}} src={Photo} alt="..."></img>
+                <img style={{marginTop: '20px', marginBottom: '30px',  marginLeft:"75px", width: '300px', height: '400px',}} src={Photo} alt="..."></img>
                   
               
                 </div>
               </div>  
-              <div className="col-lg-7 col-md-6 col-sm-12 text-dark" style={{marginTop: '40px', fontSize: '15px'}}>
+              <div className="col-lg-7 col-md-6  text-dark" style={{marginTop: '40px', fontSize: '20px'}}>
                   <p style={{ color: '#283316'}}> Hello! Thanks for stopping by. </p>
                   <p style={{ color: '#283316'}}> I'm Michaela, an aspiring web developer. I am currently working my way through a coding bootcamp through Michigan State University. Before this camp I got my bachelor degree from Grand Valley State University for Marketing and Supply Chain Management. </p>
                   <p style={{ color: '#283316'}}> When I am not trying to learn more about coding I spend a lot of my free time playing video games, going to the gym and flying around the US to see live music. </p>
