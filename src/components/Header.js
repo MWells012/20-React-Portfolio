@@ -18,7 +18,7 @@ const Header = () =>{
         <Router>
            <NavBar/>
                 <Routes>
-                    <Route path="/MWells012/20-React-Portfolio" element ={<HomePage/>}/>
+                    <Route path="/20-React-Portfolio" element ={<HomePage/>}/>
                     <Route path="/AboutMe"  element ={<AboutMe/>}/>
                     <Route path="/HomePage"  element ={<HomePage/>}/>
                     <Route path="/Portfolio"  element ={<Portfolio/>}/>
